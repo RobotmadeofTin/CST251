@@ -1,0 +1,41 @@
+
+
+body #content{
+  border: solid black 10px;
+  margin:50px 95px 50px 95px;
+  background: orange;
+  color: aquamarine;
+}
+
+h1, h2 {
+  font-family: monospace;
+  font-style: normal;
+  font: "Impact";
+  font-size: 45;
+}
+
+p {
+  font-family: sans-serif;
+  font-style: oblique;
+  font: "Arial";
+  font-size: 90%
+}
+
+header{
+  font-size: 100px;
+  font-family: monospace;
+  font-style: normal;
+  font: "Impact";
+  margin: 40px
+}
+
+div#myaddedimages {
+  padding: 10px;
+  background-color: aquamarine;
+  border: solid 10px orange;
+  height: 60vh;
+}
+
+html {
+  background: blue;
+}
