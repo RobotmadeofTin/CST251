@@ -1,0 +1,24 @@
+body {
+  border: solid white 10px;
+  margin:50px 95px 50px 95px;
+  background: black;
+  color: white;
+}
+
+h1, h2 {
+  font-family: Fantasy;
+  font-style: normal;
+  font: "Impact";
+  font-size: 45;
+}
+
+p {
+  font-family: sans-serif;
+  font-style: oblique;
+  font: "Arial";
+  font-size: 90%
+}
+
+html {
+  background: #ff9999;
+}
