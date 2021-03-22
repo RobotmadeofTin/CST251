@@ -1,0 +1,17 @@
+main#content {
+background: black
+}
+
+
+element.style {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 130px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+html {
+    background: #ffffff;
+}
