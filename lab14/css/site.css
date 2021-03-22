@@ -1,0 +1,107 @@
+main#content {
+  margin:30px;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  font: "Tahoma"
+  height: 3800px;
+}
+
+
+main {
+  background-image: url("../img/pigbg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bacon{
+    display: inline-block;
+    padding-left: 40%;
+    padding-right: 50%;
+    padding-top: 30px;
+
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 40px;
+  padding-left: 45px;
+  padding-bottom: 30%;
+  padding top: 0;
+  text-align: center;
+}
+
+.maintype{
+  font-size: 70px;
+  font-weight:bold;
+  font-style: normal;
+  text-align: center;
+}
+
+.button{
+  display: block;
+  width: 300px;
+  height: auto;
+  padding-left: 5%;
+  align-self: center;
+}
+
+#textontop {
+  font-size: 40px;
+  font-weight:bold;
+  font-style: normal;
+  text-align: center;
+  padding-left: 320px;
+  align-self: center;
+  position: absolute;
+}
+
+.block {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 120px;
+}
+
+.click{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+img{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
+
+html {
+  background: white;
+  height: 3000px;
+}
