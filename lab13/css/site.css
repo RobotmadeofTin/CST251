@@ -1,17 +1,46 @@
-main#content {
-background: black
+#nav{
+  font font-family: "Lora", serif;
+  font-size: 25px;
 }
 
-
-element.style {
-    display: inline-block;
-    text-align: center;
-    color: white;
-    font-size: 130px;
-    font-weight: bolder;
-    padding: 20px;
+#cartoon{
+  float: right;
+  padding-top: 80px;
+  padding-right: 40px;
 }
 
-html {
-    background: #ffffff;
+em{
+  font-family: "Lora", sans-serif;
+  font-style: italic;
+  font-size: 25px;
+}
+
+main{
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+#motto {
+  font-family: "lora",serif;
+  font-size: 25px;
+}
+
+aside{
+  float: right;
+  padding-right: 100px;
+}
+
+#table{
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+#header2{
+  float:right;
+  font-size: 25px;
+}
+
+#rightcontent, #leftcontent {
+  font-family: "Calibri",sans-serif;
+  color: black
 }
