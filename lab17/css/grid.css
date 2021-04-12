@@ -1,0 +1,76 @@
+nav{
+    position: sticky;
+    top: 0;
+    border: solid black 10px;
+    padding: 20px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: cursive;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+    text-align: center;
+    background: #d6c0aa;
+}
+
+header {
+    font-family: cursive;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+    border: solid black 10px;
+    width: 500px;
+    height: 200px;
+    font-size: 200px;
+    padding-left: 30px;
+}
+
+article {
+    border: solid black 10px;
+    max-width: 400px;
+    font-family: cursive;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+}
+
+h1,h2{
+    font-family: cursive;
+    font-style: normal;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+}
+
+p{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 90%
+}
+
+section{
+    border: solid black 10px;
+    display: grid, inline-grid;
+    grid-template-columns: 8 7 3;
+
+}
+
+aside {
+    border: solid black 10px;
+    display: grid, inline-grid;
+    grid-template-columns: 7 4 9;
+
+}
+
+footer {
+    font-family: cursive;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+    border: solid black 10px;
+    display: grid, inline-grid;
+    grid-template-columns: 2 5 9;
+}
+
+img{
+  float: right;
+}
+
+html{
+    background: #d6c0aa;
+}

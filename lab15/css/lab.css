@@ -1,65 +1,72 @@
-main#content {
-  border: solid #5c81ab 10px;
-  margin:30px 75px 30px 75px;
-  background: #769edc;
-  color: #551b8b;
-  font-family: "Monaco", "Courier New", monospace;
-  height: 3800px
+#content {
+    font-family: Helvetica, Verdana, Arial, "sans serif";
+    background-image: linear-gradient(to right, grey, #84638c);
+    margin: 40px 20px;
+    border-style: solid 10px;
+    border-color: darkred;
+    color: #ffffff;
+    padding: 55px 5px 5px 5px;
+    font-size: 120%;
+    color: #ffffff;
 }
 
-nav#links {
-  display: center;
-  /* inline-block */
-  border: solid #5c81ab 10px;
-  background: #a7bdff;
-  font-size: 180%;
-  text-align: center;
-  margin: 110px 10px 10px 10px;
-  position: relative;
-  height: auto;
-  width: auto;
-}
-
-aside#sidebar {
-  display: inline-block;
-  border: solid #5c81ab 10px;
-  background: #a7bdff;
+#sidebar{
   float: right;
-  margin: 50px 50px 10px 0;
-  width: 30%;
-  min-width: 300px;
-  position: relative;
+  max-width: 45%;
+}
+
+div#images {
+  padding: 40px 5px 5px 5px;
+  margin-top: 20px;
+  background-color: grey;
+  border: solid 10px grey;
   height: auto;
-
+  margin-left: 30px;
+  box-shadow: 5px 5px 5px darkred;
+  object-fit: contain;
+  float: left;
+  max-width: 30%
+}
+  img {
+  filter: drop-shadow(5px 5px 5px darkred);
+  object-fit: contain;
+  padding: 10px;
+  width: 400px;
+  height: 100px;
+  transform: rotate(20deg);
 }
 
-div#break {
-  display: inline-block;
-  border: solid #5c81ab 10px;
-  padding: 100px;
-  background: #a7bdff;
-  margin: 70px 0 10px 70px;
-  width: 50%;
-  min-width: 200px;
-  position: relative;
+h1, h2, h3 {
+    font-family: "Impact", monospace;
+    text-shadow: 2px 2px grey;
+    background-image: linear-gradient(to right, grey, #84638c);
 }
 
-h1.text{
-    border: dotted #5c81ab 5px;
-    font-size: 50px;
+p{
+  font-family: "Arial", monospace;
+}
+
+nav{
+  position: sticky;
+  background: #84638c;
+  border: white;
+  border-radius: 15px;
+    color: white;
     font-style: normal;
-    font-family: "Monaco", "Courier New", monospace;
-    position: relative;
-
+  padding: 10px 0 10px 20px;
+  font-size: larger;
+  font-weight: bold;
 }
 
-p.text1{
-    font-size: 30px;
-    font-style: normal;
-    font-family: "Monaco", "Courier New", monospace;
+a {
+    text-decoration: underline;
+    color: darkred;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
 
-html {
-  background: #a7bdff;
-  height: auto;
+html{
+  background-color: #84638c;
 }

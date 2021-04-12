@@ -1,0 +1,82 @@
+nav{
+    position: sticky;
+    top: 0;
+    border: solid black 10px;
+    padding: 20px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: cursive;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+    text-align: center;
+    background: #9c9c9c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    font-family: cursive;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+    border: solid white 10px;
+    width: 500px;
+    height: 200px;
+    font-size: 200px;
+    padding-left: 30px;
+    transform: rotate(180deg);
+}
+
+article {
+    border: solid white 10px;
+    max-width: 400px;
+    font-family: cursive;
+    font: Snell Roundhound;
+    font-variant: small-caps
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+h1,h2{
+    font-family: cursive;
+    font-style: normal;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+}
+
+p{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 90%
+}
+
+section{
+    border: solid white 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+aside {
+    border: solid white 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#flex{
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+    font-family: cursive;
+    font: Snell Roundhound;
+    font-variant: small-caps;
+    border: solid black 10px;
+}
+
+html{
+    background: #d0d0d0;
+}
