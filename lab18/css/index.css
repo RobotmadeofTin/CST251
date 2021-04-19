@@ -1,7 +1,7 @@
 nav{
     position: sticky;
     top: 0;
-    border: solid black 10px;
+    border: solid white 8px;
     padding: 20px;
     font-size: x-large;
     font-style: italic;
@@ -9,58 +9,48 @@ nav{
     font: Snell Roundhound;
     font-variant: small-caps;
     text-align: center;
-    background: #d6c0aa;
+    background: pink;
 }
 
 header {
     font-family: cursive;
     font: Snell Roundhound;
     font-variant: small-caps;
-    border: solid black 10px;
-    width: 1500px;
-    height: 250px;
-    font-size: 200px;
+    font-size: 100px;
     text-align: center;
     padding-bottom: 40px;
+    margin-left: 0 0 0 500px;
 }
 
-article {
-    border: solid black 10px;
-    max-width: 400px;
-    font-family: cursive;
-    font: Snell Roundhound;
-    font-variant: small-caps;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
 }
 
+div{
+  margins: 55px;
+  border: solid pink 5px;
+  color: white;
+
+}
 
 h1,h2{
     font-family: cursive;
     font-style: normal;
     font: Snell Roundhound;
     font-variant: small-caps;
+    color: white'
 }
 
 p{
     font-family: cursive;
     font-style: oblique;
     font-size: 90%
-}
-
-section{
-    border: solid black 10px;
-}
-
-aside {
-    border: solid black 10px;
-}
-
-footer {
-    font-family: cursive;
-    font: Snell Roundhound;
-    font-variant: small-caps;
-    border: solid black 10px;
+    color: white'
 }
 
 html{
-    background: #d6c0aa;
+    background: #b7793c;
 }
