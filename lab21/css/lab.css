@@ -1,0 +1,33 @@
+body {
+  border: solid white 10px;
+  margin:50px 95px 50px 95px;
+  background: black;
+  color: white;
+}
+
+header{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Impact;
+  font-style: normal;
+  font: "Impact";
+  font-size: 45px;
+}
+
+p {
+  font-family: sans-serif;
+  font-style: oblique;
+  font: "Arial";
+  font-size: 30px;
+}
+
+img{
+  padding-left: 20px;
+}
+
+html {
+  background: #ff9999;
+}
